@@ -11,6 +11,7 @@ export const App = () => {
       <Navbar />
       <Container />
       <Cards />
+      <Footer />
     </div>
   );
 };
