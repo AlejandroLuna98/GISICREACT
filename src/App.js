@@ -1,17 +1,19 @@
 import React from "react";
-import { Cards } from "./components/Cards";
-import { Container } from "./components/Container";
+
+import { Carrousel } from "./components/Carrousel";
 import { Header } from "./components/Header";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
+import { Screen } from "./components/News&Events/Screen";
 export const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <Navbar />
-      <Container />
-      <Cards />
+      <Carrousel />
+
+      <Screen />
       <Footer />
-    </div>
+    </>
   );
 };
