@@ -42,7 +42,6 @@ export const Navbar = () => {
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link active dropdown-toggle"
-                    href="#"
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -55,22 +54,18 @@ export const Navbar = () => {
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Profesores
-                      </a>
+                      <a className="dropdown-item">Profesores</a>
                     </li>
                     <li>
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Estudiantes
-                      </a>
+                      <a className="dropdown-item">Estudiantes</a>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">
+                  <a className="nav-link active">
                     <i className="icon fas fa-book pe-1"></i>Publicaciones
                   </a>
                 </li>
