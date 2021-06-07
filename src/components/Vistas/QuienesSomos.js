@@ -7,6 +7,14 @@ export const QuienesSomos = () => {
     <>
       <Header />
       <Navbar />
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <h1 className=" text-center py-2">Quienes Somos</h1>
+          </div>
+          <div className="col-12"></div>
+        </div>
+      </div>
       <Footer />
     </>
   );
