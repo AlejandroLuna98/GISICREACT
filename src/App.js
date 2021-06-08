@@ -1,19 +1,13 @@
 import React from "react";
+import { AppRouter } from "./routers/AppRouter";
+import "./styles/app.scss";
 
-import { Header } from "./components/Header";
-import { Navbar } from "./components/Navbar";
-import { Footer } from "./components/Footer";
-import { Screen } from "./components/News&Events/Screen";
-import { ScreenCarrousel } from "./components/Carrousel/ScreenCarrousel";
-
-export const App = () => {
+function App() {
   return (
     <>
-      <Header />
-      <Navbar />
-      <ScreenCarrousel />
-      <Screen />
-      <Footer />
+      <AppRouter />
     </>
   );
-};
+}
+
+export default App;
