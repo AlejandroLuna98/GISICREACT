@@ -46,20 +46,7 @@ export const NewsScreen = () => {
                     lacus suscipit fringilla. Maecenas lacinia orci ac felis dictum
                     mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Praesent viverra nibh quis ligula semper tempor. Nulla quis turpis
-                    quis diam sodales iaculis. Duis id luctus mi. Praesent
-                    sollicitudin pretium elit quis bibendum. Nullam ut nunc ipsum.
-                    Pellentesque non pharetra est. Quisque eu eros vel lorem tristique
-                    sodales. Aenean velit sapien, tempus et quam in, ultrices
-                    sollicitudin tellus. Vivamus vehicula porttitor lacus suscipit
-                    fringilla. Maecenas lacinia orci ac felis dictum mattis. Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-                    viverra nibh quis ligula semper tempor. Nulla quis turpis quis
-                    diam sodales iaculis. Duis id luctus mi. Praesent sollicitudin
-                    pretium elit quis bibendum. Nullam ut nunc ipsum. Pellentesque non
-                    pharetra est. Quisque eu eros vel lorem tristique sodales. Aenean
-                    velit sapien, tempus et quam in, ultrices sollicitudin tellus.
-                    Vivamus vehicula porttitor lacus suscipit fringilla. Maecenas
-                    lacinia orci ac felis dictum mattis.
+                    quis diam sodales iaculis. Duis id luctus mi. 
                   </p>
                   <p style={{float: 'right'}}>
                     <button
