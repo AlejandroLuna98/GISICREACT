@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export const News = () => {
   return (
@@ -23,6 +24,16 @@ export const News = () => {
             <p>
               Tough as plastic wrap but elastic like a balloon, the lining could
               be a target for therapies to limit cancer cells from spreading.
+            </p>
+            <p className="card-text" style={{float: 'right'}}>
+                <NavLink
+                  activeClassName="active"
+                  className="nav-item nav-link text-dark"
+                  exact
+                  to="./NewsScreen"
+                >
+                  Mas
+                </NavLink>
             </p>
           </div>
         </div>
