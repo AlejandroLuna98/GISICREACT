@@ -8257,6 +8257,13 @@ body {
 .log-acre img {
   max-width: 100%; }
 
+h4 span {
+  font-size: 18px;
+  font-weight: 400; }
+
+.text-justify {
+  text-align: justify; }
+
 @media screen and (min-width: 1024px) {
   .upcoming-info h2 {
     font-size: 15px; }
