@@ -6,15 +6,16 @@ export const Information = () => {
       <div className="col-lg-4 col-sm-12">
         <div className="pad">
           <div className="contenido lh-lg">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero,
-              nulla ullam modi voluptatum suscipit quo eligendi in alias, amet
-              facere omnis, quam doloribus? Dignissimos, id voluptatibus
-              doloribus blanditiis voluptatem accusamus? Sequi, doloribus
-              voluptas? Nemo, fugit quibusdam? Officia alias, perferendis hic
-              ipsam distinctio nulla obcaecati debitis quod assumenda autem
-              quasi saepe illum aut, nobis impedit ullam, sed repellendus. Quae,
-              corrupti amet!
+            <p className="text-justify">
+              La Universidad Católica de Colombia es una institución privada de
+              educación superior. Fue fundada en Bogotá , Colombia en 1970,
+              notable por su lealtad inicial a la doctrina de la iglesia
+              católica. La institución contaba con más de diez mil estudiantes
+              en septiembre de 2019, de los cuales la mayoría eran estudiantes
+              de pregrado. La universidad tiene tres campus en la ciudad de
+              Bogotá, una escuela, una escuela de idiomas y un campus
+              universitario, además de ser un entorno de oficina para los
+              estudiantes en Bogotá.
             </p>
           </div>
         </div>

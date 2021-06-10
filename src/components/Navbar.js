@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 export const Navbar = () => {
   return (
     <>
-      <div className="container-md my-2">
+      <div className="container-md my-2 p-0 ">
         <nav className=" nav navbar navbar-expand-lg navbar-light bg-light  ">
           <div className="container-fluid d-flex justify-content-end">
             <div className="navbar-collapse mx-3 text-center">
@@ -41,7 +41,7 @@ export const Navbar = () => {
                   exact
                   to="/Publicaciones"
                 >
-                  Publicaciones
+                  Articulos Publicados
                 </NavLink>
                 <NavLink
                   activeClassName="active"
@@ -49,7 +49,7 @@ export const Navbar = () => {
                   exact
                   to="/NewsScreen"
                 >
-                  Publicaciones
+                  Noticias
                 </NavLink>
               </div>
             </div>
