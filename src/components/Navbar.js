@@ -8,8 +8,8 @@ export const Navbar = () => {
           <div className="container-fluid d-flex justify-content-end">
             <div className="navbar-collapse mx-3 text-center">
               <div className="navbar-nav">
-                <NavLink className="navbar-brand mx-3" to="/">
-                  GISIC
+                <NavLink className=" mx-3 nav-item nav-link text-dark" to="/">
+                  <img className="imgGISIC" src="https://www.ucatolica.edu.co/portal/wp-content/uploads/2019/04/favicon-01.png" />
                 </NavLink>
                 <NavLink
                   activeClassName="active"
@@ -25,16 +25,16 @@ export const Navbar = () => {
                   exact
                   to="/Docentes"
                 >
-                  Profesores
+                  Integrantes
                 </NavLink>
-                <NavLink
+                {/* <NavLink
                   activeClassName="active"
                   className="nav-item nav-link text-dark"
                   exact
                   to="/Alumnos"
-                >
+                > 
                   Alumnos
-                </NavLink>
+                </NavLink>*/}
                 <NavLink
                   activeClassName="active"
                   className="nav-item nav-link text-dark"
