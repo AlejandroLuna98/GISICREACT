@@ -43,14 +43,6 @@ export const Navbar = () => {
                 >
                   Articulos Publicados
                 </NavLink>
-                <NavLink
-                  activeClassName="active"
-                  className="nav-item nav-link text-dark"
-                  exact
-                  to="/NewsScreen"
-                >
-                  Noticias
-                </NavLink>
               </div>
             </div>
           </div>
