@@ -3,6 +3,8 @@ import { Events } from "./Events";
 import { News } from "./News";
 
 export const Screen = () => {
+  
+
   return (
     <>
       <div className="container">
