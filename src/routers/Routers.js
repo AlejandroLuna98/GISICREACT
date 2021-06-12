@@ -12,6 +12,7 @@ import { Publicaciones } from "../components/Vistas/Publicaciones";
 import { QuienesSomos } from "../components/Vistas/QuienesSomos";
 import { Navbar } from "../components/Navbar";
 import { NewsScreen } from "../components/Vistas/NewsScreen";
+import { EventsScreens } from "../components/Vistas/EventsScreens";
 export const Routers = () => {
   return (
     <Router>
@@ -23,7 +24,8 @@ export const Routers = () => {
           <Route exact path="/Alumnos" component={Alumnos} />
           <Route exact path="/Publicaciones" component={Publicaciones} />
           <Route exact path="/NewsScreen" component={NewsScreen} />
-          <Redirect to="/Home" component={Home} />
+          <Route exact path="/EventsScreen" component={EventsScreens} />
+          <Redirect to="/" component={Home} />
         </Switch>
       </>
     </Router>
