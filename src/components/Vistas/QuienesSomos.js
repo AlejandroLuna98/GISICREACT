@@ -14,14 +14,14 @@ export const QuienesSomos = () => {
             <div className="container">
               <div className="row">
                 <div className="col-12 ">
-                  <h1 className="text-center py-3 text-primary">
-                    Quienes Somos
-                  </h1>
+                  <h1 className="text-center py-3 text-primary">Quienes Somos</h1>
                 </div>
                 <div className="col-12  bg-white">
                   <section className="p-3  ">
                     <p>
-                      <span className="fs-5 pe-1  ">Creación: </span>{" "}
+                      <span className="fs-5 pe-1  ">
+                        Creación:{" "}
+                      </span>{" "}
                       {data.Creacion}
                     </p>
                     <p>
@@ -45,9 +45,7 @@ export const QuienesSomos = () => {
                 </div>
                 <div className="col-12  bg-white">
                   <section className="p-3  ">
-                    <h3 className="text-center text-primary">
-                      Plan Estategico
-                    </h3>
+                    <h3 className="text-center text-primary">Plan Estategico</h3>
                     <p className="pt-3">{data.PlanEstrategico}</p>
                   </section>
                   <ul>

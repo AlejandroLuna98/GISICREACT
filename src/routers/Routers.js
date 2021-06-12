@@ -10,10 +10,7 @@ import { Docentes } from "../components/Vistas/Docentes";
 import { Home } from "../components/Vistas/Home";
 import { Publicaciones } from "../components/Vistas/Publicaciones";
 import { QuienesSomos } from "../components/Vistas/QuienesSomos";
-<<<<<<< HEAD
 import { Navbar } from "../components/Navbar";
-=======
->>>>>>> develop
 import { NewsScreen } from "../components/Vistas/NewsScreen";
 export const Routers = () => {
   return (
@@ -26,11 +23,7 @@ export const Routers = () => {
           <Route exact path="/Alumnos" component={Alumnos} />
           <Route exact path="/Publicaciones" component={Publicaciones} />
           <Route exact path="/NewsScreen" component={NewsScreen} />
-<<<<<<< HEAD
           <Redirect to="/Home" component={Home} />
-=======
-          <Redirect to="/" component={Home} />
->>>>>>> develop
         </Switch>
       </>
     </Router>

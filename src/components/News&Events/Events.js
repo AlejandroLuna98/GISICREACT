@@ -9,12 +9,7 @@ export const Events = () => {
     <div class="upcoming-cards">
       <div class="row">
         <div class="col-4 upcoming-img">
-          <div className="text-center event-card">
-            <div className="event-gray">
-              VIERNES
-            </div>
-            <span className="event-number">19</span>
-          </div>
+          <img src="./img/eventthree.JPG" alt="Calendar event three" />
         </div>
         <div class="col-8 upcoming-info">
           <h2>
