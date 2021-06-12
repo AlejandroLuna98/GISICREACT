@@ -23,7 +23,11 @@ export const Routers = () => {
           <Route exact path="/Docentes" component={Docentes} />
           <Route exact path="/Alumnos" component={Alumnos} />
           <Route exact path="/Publicaciones" component={Publicaciones} />
-          <Route exact path="/NewsScreen" component={NewsScreen} />
+          <Route
+            exact
+            path="/NewsScreen/:titulo/:imagen/:descipcion/:fecha"
+            component={NewsScreen}
+          />
           <Route exact path="/EventsScreen" component={EventsScreens} />
           <Redirect to="/" component={Home} />
         </Switch>

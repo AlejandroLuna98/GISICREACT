@@ -5,6 +5,8 @@ import { Navbar } from "../Navbar";
 import { Footer } from "../Footer";
 
 export const NewsScreen = () => {
+  const { titulo, imagen, descripcion, fecha } = useParams();
+
   let history = useHistory();
 
   const handleReturn = () => {
