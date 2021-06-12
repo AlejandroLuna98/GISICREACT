@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Events } from "./Events";
 import { News } from "./News";
+// const [news, setNews] = useState([]);
+// const [events, setEvents] = useState([]);
+
 
 export const Screen = () => {
   return (
