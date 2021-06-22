@@ -10,6 +10,7 @@ export const Screen = () => {
       const url = "http://localhost:4000/noticias";
       const response = await fetch(url);
       const resNews = await response.json();
+      console.log(resNews);
 
       setNews(resNews);
     };
@@ -26,7 +27,7 @@ export const Screen = () => {
     };
     fetchEvents();
   }, []);
-  // console.log(events);
+
   return (
     <>
       <div className="container">

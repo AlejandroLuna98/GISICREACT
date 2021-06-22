@@ -8259,3 +8259,44 @@ h4 span {
 
 .text-justify {
   text-align: justify; }
+
+.col-lg-13 {
+  flex: 0 0 auto;
+  width: 49.15%; }
+
+.col-lg-14 {
+  flex: 0 0 auto;
+  width: 15%; }
+
+.col-lg-15 {
+  flex: 0 0 auto;
+  width: 83.18%; }
+
+.mx-7 {
+  padding: 15px;
+  box-shadow: 0em 0 0.5em #a5a5a5; }
+
+.mx-8 {
+  padding: 15px;
+  margin-right: 20px;
+  box-shadow: 0em 0 0.5em #a5a5a5; }
+
+.mx-9 {
+  padding: 15px;
+  margin-right: 20px;
+  height: 180px;
+  padding-top: 35px;
+  box-shadow: 0em 0 0.5em #a5a5a5; }
+
+span {
+  font-weight: bold; }
+
+.bold {
+  font-weight: bold; }
+
+.text-bold {
+  text-align: center;
+  font-weight: bold; }
+
+.mt-6 {
+  margin-top: 20px; }
